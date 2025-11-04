@@ -1,0 +1,42 @@
+/* index.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #111;
+}
+
+div {
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+button {
+  text-transform: uppercase;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background: #007bff;
+  color: white;
+}
+
+button:hover {
+  background: #0056b3;
+}
